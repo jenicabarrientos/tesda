@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -->
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/5e45b2382f.js" crossorigin="anonymous"></script>
+    <!-- Font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link for icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Perfume Delight</title>
+</head>
+<body>
+    <header id='home' class="navbar-fixed">
+        <nav class=" transparent ">
+          <div class="nav-wrapper ">
+            <a href="#!" class="brand-logo left logo-container">
+              <img src="logo.png" alt="logo" height="64" width="64" class="logo">
+              <span class="brand-logo-text right">Perfume Delight</span>
+            </a>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="#Home" class="black-text" >Home</a></li>
+              <li><a href="#About" class="black-text" >About Us</a></li>
+              <li><a href="#Collection" class="black-text">Collection</a></li>
+              <li><a href="#Contact" class="black-text">Contact Us</a></li>
+            </ul>
+          </div>
+        </nav>
+    
+        <ul class="sidenav" id="mobile-demo">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Collection">Collection</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+    
+        <div class="welcome-text valign-wrapper">
+          <div class="black-text center-align welcome">
+            <h3>Experience the Essence of Elegance</h3>
+          </div>
+        </div>
+    </header>
+
+    
+    <div class="section white scrollspy" id="Home">
+      <div class="container">
+          <h2>Welcome to Perfume Delight</h2>
+          <p>Discover our exquisite collection of perfumes that capture the essence of elegance and sophistication. Whether you're looking for a new signature scent or a gift for someone special, we have something for everyone.</p>
+          <h4>"Fragrance is the art that makes memory speak"</h4>
+      </div>
+    </div>
+
+    <div class="section white scrollspy" id="About">
+      <div class="container">
+          <h2>About Us</h2>
+          <p>At Perfume Delight, we believe that a fragrance is more than just a scent; it’s a journey. Our mission is to provide you with perfumes that not only smell divine but also evoke emotions and memories. We are passionate about the art of perfumery and are committed to offering you the best products and service.</p>
+      </div>
+    </div>
+    
+    <div class="section white scrollspy" id="Collection">
+      <div class="container">
+          <h2>Our Collection</h2>
+          <div class="row">
+              <div class="col s12 m6 l4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img src="nine.jpg" alt="Perfume 1">
+                          <span class="card-title">Elegant Essence</span>
+                      </div>
+                      <div class="card-content">
+                          <p>A sophisticated blend of floral and woody notes, perfect for any occasion.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m6 l4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img src="fourth.jpg" alt="Perfume 2">
+                          <span class="card-title">Mystic Melody</span>
+                      </div>
+                      <div class="card-content">
+                          <p>An enchanting fragrance with hints of jasmine and vanilla.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col s12 m6 l4">
+                  <div class="card">
+                      <div class="card-image">
+                          <img src="third.jpg" alt="Perfume 3">
+                          <span class="card-title">Bold Blossom</span>
+                      </div>
+                      <div class="card-content">
+                          <p>A vibrant scent featuring notes of rose and citrus, for the bold and confident.</p>
+                      </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  
+
+
+
+    <!-- Jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize Scrollspy
+            var scrollspyElems = document.querySelectorAll('.scrollspy');
+            M.ScrollSpy.init(scrollspyElems, {});
+
+            
+
+        });  
+
+    </script>
+
+</body>
+</html>

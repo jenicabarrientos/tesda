@@ -1,0 +1,95 @@
+body,html {
+    padding : 0;
+    margin : 0;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Signika', cursive;
+}
+nav li a {
+    font-family: 'Arima Madurai', cursive;
+}
+body {
+    font-family: 'Arimo', sans-serif;
+}
+.hvr-underline {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+    overflow: hidden;
+  }
+  .hvr-underline:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: rgba(11, 11, 11, 0.3);
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  .hvr-underline:hover:before, .hvr-underline:focus:before, .hvr-underline:active:before {
+    left: 0;
+    right: 0;
+  }
+
+#home{
+    background-color: #f6f7f7;
+    background-image: url(eight.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    z-index: 2;
+    height: 100vh;
+}
+
+.welcome-text {
+    width: 80%;
+    height: 100%;
+    margin: 0 10%;
+}
+.welcome-text .welcome {
+    margin : 0 auto;
+}
+
+.logo {
+    margin-left: 10px; /* Adjust this value to move the logo further right */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    margin-left: 50px; /* Adjust this value to move the entire logo container further right */
+}
+
+.brand-logo-text {
+    font-family: 'Signika', cursive;
+    font-size: 24px; /* Adjust the font size as needed */
+    color: black; /* Change the color as needed */
+}
+
+.background-container {
+    background-image: url('background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0; /* Adjust padding as needed */
+}
+.scrollspy {
+    padding: 20px; /* Adjust padding as needed */
+}
+.center-img {
+    display: flex;
+    justify-content: center;
+}
+.card-title, .card-content p {
+    color: black; /* Change text color for contrast against background image */
+}

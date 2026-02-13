@@ -1,0 +1,31 @@
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+    color: #01579b;
+}
+
+p {
+    color: #616161;
+    font-weight: 400;
+}
+
+.parallax-container {
+    height: 400px;
+}
+.second {
+    padding: 60px 0;
+}
+.navbar-fixed nav {
+    line-height: 56px;
+    height: 56px;
+}
+
+h2, h3 {
+    margin-top: 1;
+}
+.second {
+    padding-top: 20px; /* Adjust as needed */
+}
+img {
+    max-width: 100%; /* Ensures images don't exceed their container's width */
+    height: auto; /* Maintains the aspect ratio of the image */
+}

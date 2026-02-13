@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome icons -->
+    <script src="https://kit.fontawesome.com/5e45b2382f.js" crossorigin="anonymous"></script>
+    <!-- Font awesome cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Link for icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="parallax-style.css">
+     <title>Barrientos-Parallax</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav class = "lighten-3 purple">
+            <div class="container">
+                <a href="" class="brand-logo">Activity</a>
+                <ul class="table-of-contents right">
+                    <li>
+                        <a href="#Home" class="white-text">Home</a>
+                    </li>
+                    <li>
+                        <a href="#About" class="white-text">About</a>
+                    </li>
+                    <li>
+                        <a href="#Contact us" class="white-text">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    </div>
+
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="ek.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="second scrollspy" id="Home">
+        <div class="container">
+            <h2>Home</h2>
+            <p>Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+            <br>
+            <h3>Parallax Demo HTML</h3>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="ek.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="second scrollspy" id="About">
+        <div class="container">
+            <h2>About</h2>
+            <p>Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+    </section>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="ek.jpg" alt="">
+        </div>
+    </div>
+
+    <section class="second scrollspy" id="Contact us">
+        <div class="container">
+            <h3>Contact us</h3>
+            <p>Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+        </div>
+    </section>
+    
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const parallaxEffect = document.querySelectorAll('.parallax');
+            M.Parallax.init(parallaxEffect, {});
+
+            // scrollspy init
+            $('.scrollspy').scrollspy();
+        });
+    </script>
+    
+
+
+
+</body>
+</html>
